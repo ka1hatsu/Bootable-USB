@@ -1,6 +1,6 @@
 # Bootable-USB
 
-(C++ code to create a bootable USB stick.)
+## (C++ code to create a bootable USB stick.)
 
 ### Step 1: Create required partition on the USB to boot into. (Use GParted:- http://gparted.org/)
 ### Step 2: Run the code.
