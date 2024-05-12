@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 void format(string path)
 {
 	cout<<"Formatting the USB....\n";
@@ -29,10 +28,11 @@ int main()
 string path, path1;
 
 system("lsblk");
-
+cout<<"Example: F:/Sandisk..... \n";
 cout<<"Enter USB path: ";
 cin>>path;
 
+cout<<"Example: C:/User/Downloads....... \n";
 cout<<"Enter ISO path: ";		//ISO image of the OS you want to boot in.
 cin>>path1;
 
